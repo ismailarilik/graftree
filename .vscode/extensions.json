@@ -1,5 +1,11 @@
 {
   "recommendations": [
-    "EditorConfig.EditorConfig"
+    "christian-kohler.npm-intellisense",
+    "DavidAnson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig",
+    "eg2.vscode-npm-script",
+    "firefox-devtools.vscode-firefox-debug",
+    "octref.vetur"
   ]
 }
