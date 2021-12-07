@@ -1,4 +1,12 @@
 module.exports = {
+  chainWebpack (config) {
+    config
+      .plugin('html')
+      .tap(args => {
+        args[0].title = 'Graftree'
+        return args
+      })
+  },
   pwa: {
     name: 'Graftree',
     themeColor: '#FFFFFF',
