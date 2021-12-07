@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "cross-env DEBUG=graftree:* nodemon ./bin/www",
+    "start": "cross-env DEBUG=graftree:* nodemon ./src/bin/www.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
