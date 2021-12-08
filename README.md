@@ -42,6 +42,12 @@ npm run lint
 npm test
 ```
 
+### Create a report for missing or unused i18n entries
+
+```sh
+npm run i18n:report
+```
+
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
