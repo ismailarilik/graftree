@@ -6,6 +6,12 @@
 npm install
 ```
 
+### Starts web server
+
+```sh
+npm start
+```
+
 ### Compiles and hot-reloads for development
 
 ```sh
