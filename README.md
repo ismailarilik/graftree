@@ -24,10 +24,16 @@ npm run build
 npm run test:unit
 ```
 
-### Lints files
+### Lint files
 
 ```sh
 npm run lint
+```
+
+### Run your unit tests and lint files
+
+```sh
+npm test
 ```
 
 ### Customize configuration
