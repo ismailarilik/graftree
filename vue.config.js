@@ -7,6 +7,7 @@ module.exports = {
         return args
       })
   },
+
   pwa: {
     name: 'Graftree',
     themeColor: '#FFFFFF',
@@ -76,6 +77,16 @@ module.exports = {
           purpose: 'maskable'
         }
       ]
+    }
+  },
+
+  pluginOptions: {
+    i18n: {
+      locale: 'en',
+      fallbackLocale: 'en',
+      localeDir: 'locales',
+      enableInSFC: true,
+      enableBridge: false
     }
   }
 }
