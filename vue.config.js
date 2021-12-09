@@ -88,5 +88,9 @@ module.exports = {
       enableInSFC: true,
       enableBridge: false
     }
-  }
+  },
+
+  transpileDependencies: [
+    'vuetify'
+  ]
 }
