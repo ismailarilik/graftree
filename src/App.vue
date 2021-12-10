@@ -11,9 +11,9 @@
         </v-icon>
       </v-app-bar-nav-icon>
 
-      <v-app-bar-title>
+      <v-toolbar-title>
         Graftree
-      </v-app-bar-title>
+      </v-toolbar-title>
     </v-app-bar>
 
     <v-main>
