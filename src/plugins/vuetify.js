@@ -18,6 +18,10 @@ function missingMaterialIcons (ids) {
   return icons
 }
 
+const prefersColorSchemeDark = () => {
+  return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+}
+
 Vue.use(Vuetify)
 
 export default new Vuetify({
@@ -27,6 +31,7 @@ export default new Vuetify({
     }
   },
   theme: {
+    dark: prefersColorSchemeDark(),
     options: {
       customProperties: true
     },
