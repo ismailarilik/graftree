@@ -5,11 +5,11 @@
       color="primary"
       dark
     >
-      <v-app-bar-nav-icon>
-        <v-icon>
-          $nature_outline
-        </v-icon>
-      </v-app-bar-nav-icon>
+      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+
+      <v-icon>
+        $nature_outline
+      </v-icon>
 
       <v-toolbar-title>
         Graftree
