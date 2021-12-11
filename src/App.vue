@@ -29,6 +29,21 @@ export default {
   name: 'App',
 
   data: () => ({
-  })
+  }),
+
+  metaInfo () {
+    return {
+      htmlAttrs: {
+        lang: this.$i18n.locale
+      },
+      meta: [
+        { name: 'description', content: this.$t('compare_everything') }
+      ],
+      title: `Graftree | ${this.$t('compare_everything')}`,
+      noscript: [
+        { innerHTML: `<strong>${this.$t('noscript')}</strong>` }
+      ]
+    }
+  }
 }
 </script>
