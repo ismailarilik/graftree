@@ -7,12 +7,13 @@
     >
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-      <v-icon>
-        $nature_outline
-      </v-icon>
-
       <v-toolbar-title>
-        Graftree
+        <v-btn plain to="/">
+          <v-icon>
+            $nature_outline
+          </v-icon>
+          Graftree
+        </v-btn>
       </v-toolbar-title>
     </v-app-bar>
 
