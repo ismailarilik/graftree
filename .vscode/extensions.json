@@ -9,6 +9,7 @@
     "GitHub.copilot",
     "GitHub.vscode-pull-request-github",
     "Lokalise.i18n-ally",
+    "mongodb.mongodb-vscode",
     "octref.vetur"
   ]
 }
