@@ -3,6 +3,7 @@ var path = require('path')
 var cookieParser = require('cookie-parser')
 var logger = require('morgan')
 const mongoose = require('mongoose')
+const helmet = require('helmet')
 
 main().catch(err => console.log(err))
 
@@ -12,6 +13,7 @@ async function main () {
 
 var app = express()
 
+app.use(helmet())
 app.use(logger('dev'))
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
