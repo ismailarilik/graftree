@@ -1,4 +1,5 @@
 {
   "compare_everything": "Her şeyi karşılaştır",
-  "noscript": "Üzgünüz fakat Graftree, JavaScript etkinleştirilmeden düzgün çalışmaz. Devam etmek için lütfen JavaScript'i etkinleştirin."
+  "noscript": "Üzgünüz fakat Graftree, JavaScript etkinleştirilmeden düzgün çalışmaz. Devam etmek için lütfen JavaScript'i etkinleştirin.",
+  "page_not_found": "Sayfa bulunamadı!"
 }
